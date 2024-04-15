@@ -146,5 +146,5 @@ while True:
     if (ball.xcor()< -340) and (ball.xcor() > -350) and (ball.ycor ()< leftpaddle.ycor() + 50 and ball.ycor() > leftpaddle.ycor() - 50):
         ball_speed += 9
         ball.setx(-340)
-        ballxdirection = ballxdirection * -1
+        ballxdirection = ballxdirection * -1  # jag övikueruhi
         os.system("afplay paddle.wav&")
