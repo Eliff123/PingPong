@@ -147,4 +147,4 @@ while True:
         ball_speed += 9
         ball.setx(-340)
         ballxdirection = ballxdirection * -1  # jag övikueruhi
-        os.system("afplay paddle.wav&") njfa
+        os.system("afplay paddle.wav&")
